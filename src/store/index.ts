@@ -1,14 +1,16 @@
 import type { App } from 'vue'
-import Vuex from 'vuex'
+import {createStore} from 'vuex'
 
-const store = new Vuex.Store({
-    state: {
+const store = createStore({
+    state(){
+        return{
 
+        }
     },
-    modules: {
-
-    },
-    
+    getters:{},
+    mutations:{},
+    actions:{},
+    modules:{},
 })
 
 
